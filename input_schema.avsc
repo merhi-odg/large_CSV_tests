@@ -1,0 +1,3506 @@
+{
+   "type": "record",
+   "name": "inferred_schema",
+   "fields": [
+      {
+         "name": "id",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "identifier",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "score",
+         "type": "int",
+         "dataClass": "categorical",
+         "role": "score",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": true
+      },
+      {
+         "name": "label",
+         "type": "int",
+         "dataClass": "categorical",
+         "role": "label",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": true
+      },
+      {
+         "name": "weight",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "weight",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": true
+      },
+      {
+         "name": "gender",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": true,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": true
+      },
+      {
+         "name": "numerical_column_0",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_1",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_2",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_3",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_4",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_5",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_6",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_7",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_8",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_9",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_10",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_11",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_12",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_13",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_14",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_15",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_16",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_17",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_18",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_19",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_20",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_21",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_22",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_23",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_24",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_25",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_26",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_27",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_28",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_29",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_30",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_31",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_32",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_33",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_34",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_35",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_36",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_37",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_38",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_39",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_40",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_41",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_42",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_43",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_44",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_45",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_46",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_47",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_48",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_49",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_50",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_51",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_52",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_53",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_54",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_55",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_56",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_57",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_58",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_59",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_60",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_61",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_62",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_63",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_64",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_65",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_66",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_67",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_68",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_69",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_70",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_71",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_72",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_73",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_74",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_75",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_76",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_77",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_78",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_79",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_80",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_81",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_82",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_83",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_84",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_85",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_86",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_87",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_88",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_89",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_90",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_91",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_92",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_93",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_94",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_95",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_96",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_97",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_98",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_99",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_100",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_101",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_102",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_103",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_104",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_105",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_106",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_107",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_108",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_109",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_110",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_111",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_112",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_113",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_114",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_115",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_116",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_117",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_118",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_119",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_120",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_121",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_122",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_123",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_124",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_125",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_126",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_127",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_128",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_129",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_130",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_131",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_132",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_133",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_134",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_135",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_136",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_137",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_138",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_139",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_140",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_141",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_142",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_143",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_144",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_145",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_146",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_147",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_148",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_149",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_150",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_151",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_152",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_153",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_154",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_155",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_156",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_157",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_158",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_159",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_160",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_161",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_162",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_163",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_164",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_165",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_166",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_167",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_168",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_169",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_170",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_171",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_172",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_173",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_174",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_175",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_176",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_177",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_178",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_179",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_180",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_181",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_182",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_183",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_184",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_185",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_186",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_187",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_188",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_189",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_190",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_191",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_192",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_193",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_194",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_195",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_196",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_197",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_198",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_199",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_200",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_201",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_202",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_203",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_204",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_205",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_206",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_207",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_208",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_209",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_210",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_211",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_212",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_213",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_214",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_215",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_216",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_217",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_218",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_219",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_220",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_221",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_222",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_223",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_224",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_225",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_226",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_227",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_228",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_229",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_230",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_231",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_232",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_233",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_234",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_235",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_236",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_237",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_238",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_239",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_240",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_241",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_242",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_243",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_244",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_245",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_246",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_247",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_248",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_249",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_250",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_251",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_252",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_253",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_254",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_255",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_256",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_257",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_258",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_259",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_260",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_261",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_262",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_263",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_264",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_265",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_266",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_267",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_268",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_269",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_270",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_271",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_272",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_273",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_274",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_275",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_276",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_277",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_278",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_279",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_280",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_281",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_282",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_283",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_284",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_285",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_286",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_287",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_288",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_289",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_290",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_291",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_292",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_293",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_294",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_295",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_296",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_297",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_298",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "numerical_column_299",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_0",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_1",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_2",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_3",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_4",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_5",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_6",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_7",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_8",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_9",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_10",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_11",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_12",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_13",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_14",
+         "type": "boolean",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_15",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_16",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_17",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_18",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_19",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_20",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_21",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_22",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_23",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_24",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_25",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_26",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_27",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_28",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_29",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_30",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_31",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_32",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_33",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_34",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_35",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_36",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_37",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_38",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_39",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_40",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_41",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_42",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_43",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "categorical_column_44",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": false
+      }
+   ]
+}
